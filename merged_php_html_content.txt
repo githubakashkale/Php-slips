@@ -1,0 +1,1106 @@
+<html>
+    <form method="POST" action="s3q3.php">
+        <input type="radio" name="shape" value="1">
+        Triangle<br>
+        <input type="radio" name="shape" value="2">
+        Square<br>
+        <input type="radio" name="shape" value="3">
+        Rectangle<br>
+        <input type="radio" name="shape" value="4">
+        Circle<br>
+
+        <p>Enter the required values:</p>
+
+        <label>Base: <input type="number" name="base"></label><br>
+        <label>Height: <input type="number" name="height"></label><br>
+        <label>Side: <input type="number" name="side"></label><br>
+        <label>Length: <input type="number" name="length"></label><br>
+        <label>Width: <input type="number" name="width"></label><br>
+        <label>Radius: <input type="number" name="radius"></label><br>
+    
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</html><!-- . Design a HTML form to accept a string. Write a PHP script for the following.
+a) Write a function to count the total number of Vowels from the script.
+b) Show the occurrences of each Vowel from the script. -->
+<html>
+    <form method="POST" action="s1q2.php">
+        <input typ="text" name="string">
+        <input type="submit">
+        <input type="reset">
+    </form>
+</html><html> 
+    <form method="POST" action="s2q3.php">
+        <input type="submit">
+    </form>
+</html><html>
+    <form method="POST" action  ="s7q1.php">
+        <input type="text" name="string" >
+        <input type="submit"> 
+        <input type="reset">
+    </form>
+</html><!-- Write a menu driven program to perform the following operations on an associative
+array:
+a) Display the elements of an array along with the keys.
+b) Display the size of an array -->
+
+
+<html>
+    <form method="POST" action="s5q2.php">
+    <input type="radio" name="op" value="1">
+    Display the elements of an array along with the keys.
+    <br>
+    <input type="radio" name="op" value="2">
+    Display the size of an array
+    <br>
+    <input type="submit">
+    <input type="reset">
+</form>
+</html><!-- 2. Design a HTML form to accept a string. Write a PHP script for the following.
+a) Write a function to count the total number of Vowels from the script.
+b) Show the occurrences of each Vowel from the script. -->
+
+
+<html>
+
+<form method="POST">
+    <input type="text" name="string">
+    <br><br>
+
+    <input type="submit">
+    <br>
+    <br>
+    <input type="reset">
+    <br>
+</form>
+
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    table,th,td{
+        border:   1px solid black;
+        border-collapse:collapse;
+    }
+</style>
+</head>
+<body>
+    <table >
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        
+    </table>
+
+</body>
+</html><!-- Write a menu driven program the following operation on an associative array
+a) Reverse the order of each element’s key-value pair. [Hint: array_flip()]
+b) Traverse the element in an array in random order. [Hint: shuffle()] -->
+
+<html>
+    <form method="POST" action="s6q1.php">
+        <input type="radio" name="op" value="1">
+        1.Reverse the order of each element’s key-value pair.
+        <br>
+        <input type="radio" name="op" value="2">
+        2.Traverse the element in an array in random order
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</html><html>
+    <form method="POST" action="s2q1.php">
+        <input type="submit"  >   
+    </form>
+</html><html>
+    <form method="POST" action="s4q2.php">
+        <input type="text" placeholder="Enter first string" name="string1" >
+        <br>
+        <input type="text" placeholder="Enter second string" name="string2">
+        <br>
+        position
+        <input type="number" name="position" placeholder="Enter the position from where charrecter from the first string you want to reverse: ">
+        <br>
+
+        <input type="radio" name="op" value="1" >
+        Compare using == operator
+        <br>
+        <input type="radio" name="op" value="2">
+        Compare using strcmp function
+        <input type="submit">
+        <input type="reset">
+        
+    </form>
+</html><html>
+    <form method="POST" action="s8q1.php">
+        Enter the string<br>
+        <input type="text" name="string">
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</html><html>
+    <form method="POST" action="s9q3.php">
+        <input type="date" name="date">
+        <input type="submit" value="search">
+    </form>
+</html><html>
+    <form method="POST" action="s3q3.php">
+        <input type="radio" name="shape" value="1">
+        Triangle<br>
+        <input type="radio" name="shape" value="2">
+        Square<br>
+        <input type="radio" name="shape" value="3">
+        Rectangle<br>
+        <input type="radio" name="shape" value="4">
+        Circle<br>
+
+        <p>Enter the required values:</p>
+
+        <label>Base: <input type="number" name="base"></label><br>
+        <label>Height: <input type="number" name="height"></label><br>
+        <label>Side: <input type="number" name="side"></label><br>
+        <label>Length: <input type="number" name="length"></label><br>
+        <label>Width: <input type="number" name="width"></label><br>
+        <label>Radius: <input type="number" name="radius"></label><br>
+    
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</html><!-- . Write a PHP program to define Interface shape which has two method as area() and
+volume(). Define a constant PI. Create a class Cylinder implement this interface and
+calculate area and Volume. -->
+<?php
+
+interface Shape{
+    const PI=3.14;
+    public function area();
+    public function volume();
+    
+}
+
+class Cylinder implements Shape{
+    private $radius;
+    private $height;
+
+    public function __construct($radius,$height){
+        $this->radius=$radius;
+        $this->height=$height;
+    }
+
+
+    public function area()
+    {
+        $AreaofCyl=2* self::PI*$this->radius*($this->radius+$this->height);
+        //echo  "$AreaofCyl";
+        return $AreaofCyl;
+
+    }
+
+    public function volume()
+    {
+        $volumeofCyl=self::PI*($this->radius*$this->radius)*$this->height;
+        //echo "$volumepfCyl";
+        return $volumeofCyl;
+        
+    }
+
+}
+
+$cylinder = new Cylinder(5,10);
+
+echo "Surface area of cylinder is : " .$cylinder->area();
+echo "<br>";
+echo "Volume of Cylinder is: " .$cylinder->volume();
+
+?><!-- 
+Sales_order (sonumber, s_order_date)
+a. Client (clientno, name, address)
+b. A client can give one or more sales_orders, but a sales_order belongs to exactly
+one client.
+c. Accept sales order date from the user. Write a PHP script which will display all
+orders which are placed before that date. -->
+<?php
+
+
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+
+
+
+    $date=$_POST['date'];
+
+
+
+    $con=pg_connect("host=localhost dbname=phpslips user=postgres password=mit@2026");
+
+
+    if (!$con){
+        echo "Failed to establish connection !";
+        exit;
+    }
+
+    $query="select * from salesorder where sorderdate   < '$date' ";
+
+    $result=pg_query($con,$query);
+
+    if (!$result)
+    {
+        echo " Query failed : ";
+        exit;
+    }
+
+    while($row = pg_fetch_assoc($result)){
+        echo " Order No : " .$row['sono'] . "Date : " .$row['sorderdate'] . "<br>";
+    }
+
+
+    ?><?php
+
+
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+
+$xmlcontent=
+'
+
+<cricketplayer>
+
+<cricket>
+<player> abe</player>
+<runs>199</runs>
+<wickets>20</wickets>
+</cricket>
+
+<cricket>
+<player> Kunal</player>
+<runs>200</runs>
+<wickets>20</wickets>
+</cricket>
+
+<cricket>
+<player> kunal</player>
+<runs>150</runs>
+<wickets>23</wickets>
+</cricket>
+
+<cricket>
+<player> ram</player>
+<runs>120</runs>
+<wickets>23</wickets>
+</cricket>
+
+<cricket>
+<player> abad</player>
+<runs>99</runs>
+<wickets>23</wickets>
+</cricket>
+
+
+
+</cricketplayer>
+
+';
+
+$xml=simplexml_load_string($xmlcontent);
+
+
+echo "Players who scored more than 100 runs: <br><br>";
+
+foreach($xml->cricket as $player)
+{
+    if ((int)$player -> runs > 100){
+        echo "Name: " . $player ->player . "<br>";
+        echo "Runs: " . $player ->runs . "<br>";
+        echo "Wickets: " . $player ->wickets . "<br><br>";
+
+    }
+}
+
+
+?><!-- . Design a HTML form to accept a string. Write a PHP script for the following.
+a) Write a function to count the total number of Vowels from the script.
+b) Show the occurrences of each Vowel from the script. -->
+<html>
+    <form method="POST" action="s1q2.php">
+        <input typ="text" name="string">
+        <input type="submit">
+        <input type="reset">
+    </form>
+</html><!-- . Write a PHP script to accept following XML file
+<subject>
+<subjectcode>BCA 245</subjectcode>
+<subjectname> Web Technology Laboratory </subjectname>
+</subject>
+Store data of 5 subjects as display subjectcode of Wen Technology Laboratory. -->
+
+
+<?php
+
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+$xmlcontent=
+'
+<subjects>
+
+<subject>
+<subjectcode>BCA 245</subjectcode>
+<subjectname> Web Technology Laboratory </subjectname>
+</subject>  
+
+<subject>
+<subjectcode>BCA 246</subjectcode>
+<subjectname> Python Laboritory</subjectname>
+</subject>
+
+<subject>
+<subjectcode>BCA 247</subjectcode>
+<subjectname> Cpp laboritory</subjectname>
+</subject>
+
+<subject>
+<subjectcode>BCA 248</subjectcode>
+<subjectname> Java laboritory</subjectname>
+</subject>
+
+<subject>
+<subjectcode>BCA 249</subjectcode>
+<subjectname> Web programing laboritory </subjectname>
+</subject>
+
+</subjects>
+';
+
+
+$xml = simplexml_load_string($xmlcontent);
+
+echo "Subject code of web technology laboritory  <br><br>";
+
+
+foreach ($xml->subject as  $subject){
+    if (trim($subject -> subjectname ) == "Web Technology Laboratory" )
+    {
+        echo " Subject Code : " . $subject->subjectcode ."<br><br>";
+    }
+}
+
+?><?php
+$string=$_POST['string'];
+
+function countVowels($string){
+$vowelCount=0;
+$vowel=['a','e','i','o','u'];
+
+$string=strtolower($string);
+
+for ($i=0;$i<strlen($string);$i++){
+$char=$string[$i];
+
+if ($char =='a' || $char == 'e' || $char == 'i' || $char == 'o' || $char == 'u'){
+    $vowelCount++;
+}
+}
+
+return $vowelCount;
+}
+
+
+
+function vowelOccur($string){
+
+    $occurrence=[
+        'a'=>0,
+        'e'=>0,
+        'i' =>0,
+        'o' => 0,
+        'u' =>0   
+ ];
+ $string=strtolower($string);
+
+ for($i=0;$i<strlen($string);$i++){
+    $char=$string[$i];
+
+    if($char == 'a' || $char == 'e' || $char == 'i' || $char == 'o' || $char == 'u')
+    {
+        $occurrence[$char]++;
+    }
+ }
+ return $occurrence;
+
+ 
+
+}
+
+$vowelcount=countVowels($string);
+echo "$vowelcount<br>" ;
+
+echo "The occurrence of each vowel is:<br>";
+    $vo = vowelOccur($string);
+    print_r($vo);
+
+?>
+
+<!-- Write a PHP script to print following floyd’s triangle.
+1
+2 3
+4 56
+7 8 9 10
+ -->
+<?php
+
+$rows=4;
+$num=1;
+for($i=1;$i<=$rows;$i++){
+    for($j=1;$j<=$i;$j++){
+        echo "$num" . " ";
+        $num++;
+    }
+    echo "<br>";
+}
+
+?><!-- . Declare a Multidimensional Array. Display specific element from a Multidimensional
+array. Also delete given element from the Multidimensional array.(After each operation
+display array content.) -->
+<?php
+
+// $students=array(["Name"=>"Akash","RollNo"=>"SE3367","Class"=>"Sybca","Address"=>"Pune"],
+//                 ["Name"=>"Kunal","RollNo"=>"SE3368","Class"=>"Sybca","Address"=>"moshi"],
+//                 ["Name"=>"Harsh","RollNo"=>"SE3369","Class"=>"Sybca","Address"=>"alamdi"]);
+
+
+$arr=array([10,12,13],[14,15,16],[20,21,22]);
+echo "Initial array: ";
+print_r($arr);
+echo "<br>";
+
+echo "display specific element from array: " ;
+// arr[0][1];
+print_r($arr[0][1]);
+echo "<br>";
+
+unset($arr[0][1]);
+
+echo " Array after deleting specific element from array: ";
+print_r($arr);
+echo " <br>"
+
+?><!-- Write a PHP script to display source code of a webpage. -->
+<?php
+
+$url="https://www.google.com";
+
+$source=file_get_contents($url);
+
+echo "<pre>";   
+echo htmlspecialchars($source);
+echo "</pre>"
+?><html> 
+    <form method="POST" action="s2q3.php">
+        <input type="submit">
+    </form>
+</html><html>
+    <form method="POST" action  ="s7q1.php">
+        <input type="text" name="string" >
+        <input type="submit"> 
+        <input type="reset">
+    </form>
+</html><!-- Write a menu driven program to perform the following operations on an associative
+array:
+a) Display the elements of an array along with the keys.
+b) Display the size of an array -->
+<?php
+
+$students=array("Name"=>"Akash","RollNo"=>"20","class"=>"sybca");
+
+function display_array($students){
+print_r($students);
+}
+
+function display_size($students){
+   return $size = sizeof($students);
+}
+
+$op=$_POST['op'];
+
+switch($op){
+    case 1:
+        display_array($students);
+        break;
+    
+    case '2':
+        $s=display_size($students);
+        echo "$s";
+        break;
+    
+    default:
+    break;
+
+}
+
+
+
+?><!-- Write a menu driven program the following operation on an associative array
+a) Reverse the order of each element’s key-value pair. [Hint: array_flip()]
+b) Traverse the element in an array in random order. [Hint: shuffle()] -->
+
+
+<?php
+
+
+$students=array("Name"=>"Akash","Roll No"=>"SE3367","class"=>"SYBCA","collage"=>"mit");
+function arrayReverse($students)
+{
+$a=array_flip($students);
+return $a;
+}
+
+
+function arrayRandom($students){
+    $b=shuffle($students);
+    return $b;
+}
+
+?><!-- 2. Design a HTML form to accept a string. Write a PHP script for the following.
+a) Write a function to count the total number of Vowels from the script.
+b) Show the occurrences of each Vowel from the script. -->
+
+
+<?php
+
+$string = $_POST['string'];
+
+function countWowel(){
+    $vowel=array('a','e','i','o','u');
+    $count=
+}
+
+
+
+
+?>
+<!-- Write a PHP script to script to display time table of your class( use HTML table tags in
+echo) -->
+<?php
+
+echo "<html>
+<head>
+<style>
+    table,th,td{
+        border:   1px solid black;
+        border-collapse:collapse;
+    }
+</style>
+</head>
+<body>
+    <table >
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        
+    </table>
+
+</body>
+</html> ";
+
+?><!-- Declare array. Reverse the order of elements, making the first element last and last
+element first and similarly rearranging other array elements.[Hint : array_reverse()] -->
+<?php
+
+$students=array("Name"=>"Kunal","RollNo"=>"SE3367","Address"=>"Pune");
+
+echo "Original Array: <br>";
+print_r($students);
+echo "<br>";
+$rev=array_reverse($students);
+
+echo "Array after reversing: <br>";
+print_r($rev);
+?><!-- . Write a PHP script to get the PHP version and configuration information. -->
+<?php
+// Display PHP version and configuration information
+echo"Php version:";
+?>
+<!-- Write a menu driven program to perform the following operations on an associative
+array:
+a) Display the elements of an array along with the keys.
+b) Display the size of an array -->
+
+
+<html>
+    <form method="POST" action="s5q2.php">
+    <input type="radio" name="op" value="1">
+    Display the elements of an array along with the keys.
+    <br>
+    <input type="radio" name="op" value="2">
+    Display the size of an array
+    <br>
+    <input type="submit">
+    <input type="reset">
+</form>
+</html><!-- Write a PHP script to check number 153 is Armstrong or not. -->
+
+<?php
+
+
+funtion isArmstrong($num){
+    $num=num/10;
+    $rem=num%10;
+
+}
+$num=153;
+
+
+?><!-- Write a PHP script to get the PHP version and configuration information. -->
+<?php
+
+
+
+phpinfo();
+
+?><!-- . Write a PHP script for the following: Design a form to accept two strings. Compare the
+two strings using both methods (= = operator & strcmp function). Append second string to
+the first string. Accept the position from the user; from where the characters from the first
+string are reversed. (Use radio buttons) -->
+<?php
+
+$string1=$_POST['string1'];
+$string2=$_POST['string2'];
+$number=$_POST['number'];
+
+
+function append($string1,$string2){
+    return $string1.$string2;
+    
+}
+
+function compareEqual($string1,$string2){
+    if ($string1 == $string2)
+    {
+        echo "Both $string1 and $string2 are equal!";
+    }
+    else
+    {
+        echo "Not equal";
+    }
+}
+
+function CompareStrcmp($string1, $string2) {
+    $result = strcmp($string1, $string2);
+
+    if ($result == 0) {
+        echo "Both '$string1' and '$string2' are equal!";
+    } elseif ($result < 0) {
+        echo "'$string1' is less than '$string2'";
+    } else {
+        echo "'$string1' is greater than '$string2'";
+    }
+}
+
+
+function reverseStrign1($string1,$number){
+  $prefix=substr($string1,0,$number);
+  $reversedPart=strrev(substr($string1,$number));
+  return $prefix.$reversedPart; 
+
+}
+
+echo "Comparison using == operator:";
+compareEqual($string1,$string2);
+echo "<br>";
+
+echo "Compare using strcmp function: ";
+CompareStrcmp($string1,$string2);
+echo "<br>";
+
+$final_string=append($string1,$string2);
+echo "String after appending: " .$final_string;
+echo "<br>";
+
+$a=reverseStrign1($string1,$number);
+echo "String after reversing from specific position: ".$a;
+
+?><!-- 2. Design a HTML form to accept a string. Write a PHP script for the following.
+a) Write a function to count the total number of Vowels from the script.
+b) Show the occurrences of each Vowel from the script. -->
+
+
+<html>
+
+<form method="POST">
+    <input type="text" name="string">
+    <br><br>
+
+    <input type="submit">
+    <br>
+    <br>
+    <input type="reset">
+    <br>
+</form>
+
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    table,th,td{
+        border:   1px solid black;
+        border-collapse:collapse;
+    }
+</style>
+</head>
+<body>
+    <table >
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Python<br>Cpp<br>Mathematics</td>
+            <td>8:00AM-8:45AM<br>8:45AM to 9:30AM<br>9:30AM to 11:30AM</td>
+        </tr>
+        
+    </table>
+
+</body>
+</html><!-- Write a menu driven program the following operation on an associative array
+a) Reverse the order of each element’s key-value pair. [Hint: array_flip()]
+b) Traverse the element in an array in random order. [Hint: shuffle()] -->
+
+<html>
+    <form method="POST" action="s6q1.php">
+        <input type="radio" name="op" value="1">
+        1.Reverse the order of each element’s key-value pair.
+        <br>
+        <input type="radio" name="op" value="2">
+        2.Traverse the element in an array in random order
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</html><?php
+
+print_r(get_defined_functions());
+?><!-- Q1. Write a PHP script to display student information on web page. -->
+<?php
+$students=[
+    ['name'=>'Akash','age'=>20,'class'=>'sybca','address'=>'Pune'],
+    ['name'=>'kunal','age'=>20,'class'=>'sybca','address'=>'Pune']
+    ];
+print_r($students);
+?><!-- Q1. Design a HTML form to accept a string. Write a php function to reverse a string. -->
+<?php
+$string=$_POST['string'];
+
+echo "Original string $string <br>";
+$rev=strrev($string);
+
+echo "string after reversing: $rev";
+?><html>
+    <form method="POST" action="s2q1.php">
+        <input type="submit"  >   
+    </form>
+</html><!-- Q1. Write a PHP script to declare three variables and print maximum among them. -->
+
+<?php
+$a=10;
+$b=14;
+$c=19;
+
+if($a > $b && $a > $c)
+{
+    echo "$a is max: ";
+}
+else if($b > $a && $b > $c)
+{
+    echo "$b is maximum ";
+}
+
+else{
+    echo " $c is maximum";
+}
+?>
+<!-- Design a HTML form to accept a string. Write a PHP function that checks whether a
+passed string is a palindrome or not? -->
+
+<?php
+
+$string=$_POST['string'];
+$string=strtolower($string);
+$rev=strrev($string);
+
+if ($string == $rev)
+{
+    echo " String is palindrome: $string == $rev";
+}
+else{
+    echo "String is not palindrome: $string != $srev";
+}
+?><!-- Q1. Write a PHP script to check whether accepted number is prime or not. -->
+
+<?php
+
+$num=10;
+
+function isPrime($num)
+{
+$n=0;
+for($i=2;$i<$num;$i++){
+   if( $num % $i == 0 ) 
+   {
+    $n++;
+    break;
+   } 
+   
+}
+
+if ($n == 0)
+{
+    echo "$num is a prime number ";
+
+}
+else{
+    echo "$num is not a prime number: ";
+}
+}
+
+isPrime($num);
+?><html>
+    <form method="POST" action="s4q2.php">
+        <input type="text" placeholder="Enter first string" name="string1" >
+        <br>
+        <input type="text" placeholder="Enter second string" name="string2">
+        <br>
+        position
+        <input type="number" name="position" placeholder="Enter the position from where charrecter from the first string you want to reverse: ">
+        <br>
+
+        <input type="radio" name="op" value="1" >
+        Compare using == operator
+        <br>
+        <input type="radio" name="op" value="2">
+        Compare using strcmp function
+        <input type="submit">
+        <input type="reset">
+        
+    </form>
+</html><!-- . Write a PHP script to create a Class shape and its subclass triangle, square and display
+area of the selected shape.( use the concept of Inheritance) . Display menu (use radio button)
+a) Triangle
+b) Square
+c) Rectangle
+d) Circle -->
+<?php
+
+class Shape{
+    public function calculateArea(){
+        return 0;
+    }
+
+}
+
+class Triangle extends Shape{
+    private $base ;
+    private $height;
+
+
+    public function __construct($base,$height){
+        $this->base=$base;
+        $this->height=$height;
+    }
+
+
+    public function calculateArea(){
+        return 0.5 * $this->base*$this->height;
+    }
+}
+class Square extends Shape{
+    private $side;
+
+    public function __construct($side){
+        $this->side=$side;
+    }
+
+    public function calculateArea(){
+        return $this->side*$this->side;
+    }
+}
+
+class Rectangle extends Shape{
+    private $length;
+    private $width;
+
+    public function __construct($length,$width){
+        $this->length=$length;
+        $this->width=$width;
+    }
+
+    public function calculateArea(){
+        return $this->length*$this->width;
+    }
+}
+
+class Circle extends Shape{
+    private $radius;
+
+    public function __construct($radius){
+        $this->radius=$radius;
+    }
+
+    public function calculateArea(){
+        return 3.14*$this->radius*$this->radius;
+    }
+
+}
+$operation = $_POST['shape'];
+
+switch($operation)
+{
+case '1':
+$base=$_POST['base'];
+$height=$_POST['height'];
+$triangle= new Triangle($base,$height);
+echo "Area of triangle is: " .$triangle->calculateArea();
+break;
+
+case '2':
+    $side=$_POST['side'];
+    $square= new Square($side);
+    echo "Area of square is: ".$square->calculateArea();
+    break;
+
+case '3':
+    $length=$_POST['length'];
+    $width=$_POST['width'];
+    $rectangle = new Rectangle($length,$width);
+    echo "Area of rectangle is: " .$rectangle->calculateArea();
+    break;
+
+case '4':
+    $radius=$_POST['radius'];
+    $circle = new Circle($radius);
+    echo "Area of circle is: ".$circle->calculateArea();
+    break;
+
+default:
+break;
+}
+
+?><html>
+    <form method="POST" action="s8q1.php">
+        Enter the string<br>
+        <input type="text" name="string">
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</html><html>
+    <form method="POST" action="s9q3.php">
+        <input type="date" name="date">
+        <input type="submit" value="search">
+    </form>
+</html>
